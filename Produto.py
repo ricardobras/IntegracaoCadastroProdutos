@@ -3,10 +3,10 @@ from datetime import date
 from Variaveis import Variaveis as var
 
 def connectOracleCooper():
-	#return cx_Oracle.connect("producao/h3c1r9v7v3@10.30.100.100/DBCHB")
+	 
 	return cx_Oracle.connect(var.dbOracleCooper)
 def connectOracleCrv():
-	#return cx_Oracle.connect("producao/h3c1r9v7v3@10.30.100.159/CRV")
+ 
 	return cx_Oracle.connect(var.dbOracleCrv)
 
 class Produto:
